@@ -1,0 +1,623 @@
+html,
+body,
+ul,
+li,
+a,
+p,
+span,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 5px;
+    margin: 0px;
+}
+
+body {
+    font-family: "lato";
+}
+
+img {
+    max-width: 100% !important;
+}
+
+.clr {
+    clear: both;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+/* Grid Flex Layout 
+--------------------
+*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column_1 {
+    flex: 1;
+    margin: 1em;
+}
+
+.column_2 {
+    flex: 2;
+    margin: 1em;
+}
+
+.column_3 {
+    flex: 3;
+    margin: 1em;
+}
+
+.column_4 {
+    flex: 4;
+    margin: 1em;
+}
+
+.column_5 {
+    flex: 5;
+    margin: 1em;
+}
+
+.column_6 {
+    flex: 6;
+    margin: 1em;
+}
+
+.column_7 {
+    flex: 7;
+    margin: 1em;
+}
+
+.column_8 {
+    flex: 8;
+    margin: 1em;
+}
+
+.column_9 {
+    flex: 9;
+    margin: 1em;
+}
+
+.column_10 {
+    flex: 10;
+    margin: 1em;
+}
+
+.column_11 {
+    flex: 11;
+    margin: 1em;
+}
+
+.column_12 {
+    flex: 12;
+    margin: 1em;
+}
+
+/* Container Wrapper
+--------------------
+*/
+
+.container {
+    box-sizing: border-box;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Header
+--------------------
+*/
+header {
+    background-color: #d6f3ff;
+}
+
+header .column_8 {
+    right: 33%;
+    position: relative;
+}
+
+header .column_4 {
+    left: 70%;
+    position: relative;
+}
+
+.header content h1 {
+    font-size: 70px;
+    font-weight: 600;
+    font-family: "lato";
+    line-height: 45px;
+}
+
+
+.header img {
+
+    height: 300px;
+    width: 300px;
+    border: 10px;
+    border-radius: 200px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px 5px;
+    align-content: center;
+    float: right;
+}
+
+.header content h5 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "lato";
+    margin-top: 30px;
+}
+
+
+/* Skills
+--------------------
+*/
+
+.skils_blk {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.skils_blk ul {
+    list-style: none;
+    flex: 4;
+}
+
+.skils_blk ul li {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.pod_cast_blk {
+    margin-top: 40px;
+    position: relative;
+    left: -12px;
+    box-shadow: 0px 0px 9px -2px #888;
+    border-radius: 5px;
+    width: 90%;
+}
+
+/*.pod_cast_blk img{width: 60%;}*/
+
+/* Latest Works
+--------------------
+*/
+
+.work {
+    background: #ffe3db;
+    width: 100%;
+    padding: 120px 0;
+}
+
+.work h2 {
+    font-size: 33px;
+    font-weight: 800;
+    font-family: "lato";
+    text-align: center;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+
+.content h5 {
+    font-size: 35px;
+    color: #474747;
+    font-family: "lato";
+    margin-bottom: 30px;
+}
+
+.content h4 {
+    font-size: 22px;
+    font-weight: 800;
+    font-family: "lato";
+    color: #0d0c22;
+    margin-top: 10px;
+}
+
+.content h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #474747;
+    font-family: "lato";
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    font-family: "lato";
+    margin-bottom: 0px;
+
+}
+
+.content p span {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "lato";
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+.image {
+    position: relative;
+
+    float: left;
+}
+
+.btn {
+    border: 2px solid #000;
+    color: #000;
+    display: block;
+    border-radius: 5px;
+    width: 180px;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "lato";
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+
+/* Experience
+--------------------
+*/
+
+.experince_block {
+    background: #f3f4f9;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+
+.experince_block h2 {
+    font-size: 33px;
+    font-weight: 800;
+    font-family: "lato";
+    text-align: center;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.experince_block h3 {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "lato";
+    color: #000;
+    text-transform: uppercase;
+    float: left;
+
+}
+
+.experince_block p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "lato";
+    color: #333;
+}
+
+/*education block start*/
+.education_block {
+    background: #d6f3ff;
+    padding: 50px 0 80px;
+    overflow: hidden;
+}
+
+.education_block h2 {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "lato";
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+
+    top: 50%;
+}
+
+
+
+.education_block h3 {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "lato";
+    color: #0d0c22;
+    text-transform: uppercase;
+}
+
+.education_block p {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "lato";
+    color: #323232;
+}
+
+/*footer styles*/
+
+footer>.left {
+    float: left;
+    width: 5%;
+    padding-left: 30%;
+}
+
+footer>.right {
+    float: right;
+    width: 20%;
+    padding-right: 25%;
+}
+
+.left img {
+    width: 25px;
+    position: relative;
+    top: 15px;
+    margin-right: 15px;
+
+}
+
+.left h3 {
+    border: 2px solid #000;
+    color: #000;
+    display: block;
+    border-radius: 5px;
+    width: 180px;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "lato";
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.right ul {
+    list-style: none;
+}
+
+
+.right img {
+    width: 25px;
+    position: relative;
+    top: 15px;
+    margin-right: 15px;
+
+}
+
+
+.right ul li {
+    margin-top: 20 px;
+    margin-right: 6px;
+}
+
+.right ul li,
+.right ul li a {
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "lato";
+    color: #909095;
+    text-decoration: none;
+}
+
+/* Responsive Large Screens
+---------------------------
+*/
+@media (max-width: 1024px) {
+    .revrs_blk .column_8 {
+        right: 33%;
+    }
+
+    .revrs_blk .column_4 {
+        left: 66%;
+    }
+}
+
+@media (max-width: 970px) {
+    .row {
+        display: block;
+        flex-wrap: unset;
+    }
+
+    .column_1,
+    .column_2,
+    .column_3,
+    .column_4,
+    .column_5,
+    .column_6,
+    .column_7,
+    .column_8,
+    .column_9,
+    .column_10,
+    .column_11,
+    .column_12 {
+        display: block;
+        width: 100%;
+        flex: unset;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    header {
+        background: none;
+        height: auto;
+    }
+
+    .header image {
+        text-align: center;
+    }
+
+    .header image {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    header .column_8,
+    header .column_4 {
+        position: unset;
+    }
+
+    .revrs_blk .column_8,
+    .revrs_blk .column_4 {
+        position: unset !important;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+
+    .header content h2,
+    .header content h6 {
+        text-align: center;
+    }
+
+    .header content h6 span {
+        margin: 10px auto 0;
+        position: relative;
+        left: 20px;
+    }
+
+    .pod_cast_blk {
+        position: unset;
+        text-align: center;
+    }
+
+    .latst_wrks {
+        padding-top: 50px;
+    }
+
+
+
+    .image {
+        width: 100%;
+        position: unset;
+    }
+
+    .content {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .view_web_btn {
+        margin: 15px auto;
+    }
+
+    .experince_block {
+        text-align: center;
+    }
+
+    .experince_block h2 {
+        float: unset;
+    }
+
+    .education_block {
+        text-align: center;
+    }
+
+    .education_block h2 {
+        margin-bottom: 50px;
+    }
+
+    .education_block h3 {
+        margin-top: 50px;
+    }
+
+    .download_cv {
+        width: max-content;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .email_social {
+        float: left;
+        text-align: center;
+    }
+
+    .email_social ul {
+        text-align: center;
+    }
+
+    .email_social ul li {
+        display: inline-block;
+        float: left;
+    }
+
+    .email_social h3 {
+        font-size: 1em;
+    }
+
+
+    .skils_blk {
+        text-align: center;
+    }
+
+    .pod_cast_blk {
+        margin: 40px auto;
+    }
+}
+
+/* Responsive CSS Mobiles
+----------------------------
+*/
+
+
+@media (max-width: 600px) {
+    .skils_blk {
+        display: unset;
+        text-align: center;
+    }
+
+    .skils_blk ul {
+        flex: unset;
+    }
+
+    .hdr_lft h6 span {
+        position: unset;
+    }
+
+    .contnet h2 {
+        margin-bottom: 50px;
+    }
+
+    .content h2 span {
+        position: unset;
+        width: 290px;
+    }
+
+    .experince_block h2 {
+        margin-bottom: 50px;
+    }
+
+    .experince_block h2 span {
+        position: unset;
+        width: 245px;
+    }
+
+    .education_block h2 {
+        margin-bottom: 50px;
+    }
+
+    .education_block h2 span {
+        position: unset;
+        width: 245px;
+    }
+}
