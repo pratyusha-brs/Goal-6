@@ -356,14 +356,17 @@ header .column_4 {
 
 footer>.left {
     float: left;
-    width: 5%;
+    width: 20%;
     padding-left: 30%;
+    margin-left: 10%;
 }
 
 footer>.right {
     float: right;
     width: 20%;
-    padding-right: 25%;
+    padding-right:30%;
+
+
 }
 
 .left img {
