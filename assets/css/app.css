@@ -258,7 +258,8 @@ header .column_4 {
 
 .image {
     position: relative;
-
+    height: 500px;
+    width: 500px;
     float: left;
 }
 
@@ -353,18 +354,24 @@ header .column_4 {
 }
 
 /*footer styles*/
+footer {
+    background: #fff;
+    padding: 50px 0;
+}
+
 
 footer>.left {
     float: left;
     width: 20%;
-    padding-left: 30%;
+    padding-left: 15%;
     margin-left: 10%;
 }
 
 footer>.right {
     float: right;
     width: 20%;
-    padding-right:30%;
+    padding-right:30%; 
+    position: relative;
 
 
 }
